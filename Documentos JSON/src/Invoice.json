@@ -1,0 +1,48 @@
+{
+  "Invoice": {
+    "businessInformation": {
+      "name": "Business name",
+      "phone": "(000) 000-0000",
+      "address": "Street address, City, State, Zip Code",
+      "email": "Email",
+      "website": "Website"
+    },
+    "billTo": {
+      "name": "Client name",
+      "address": "Street address, City, State, Zip Code"
+    },
+    "shipTo": {
+      "name": "Client name",
+      "address": "Street address, City, State, Zip Code"
+    },
+    "invoiceDetails": {
+      "invoiceNumber": "12345",
+      "invoiceDate": "mm/dd/yyyy",
+      "terms": "Net 30",
+      "dueDate": "mm/dd/yyyy"
+    },
+    "items": [
+      {
+        "productService": "Product or service",
+        "description": "Describe your product or service",
+        "quantityHours": 0,
+        "rate": 0,
+        "amount": 0
+      },
+      {
+        "productService": "Product or service",
+        "description": "Describe your product or service",
+        "quantityHours": 0,
+        "rate": 0,
+        "amount": 0
+      }
+    ],
+    "customerMessage": "Hello! Thank you for your purchase. Please return this invoice with payment. Thanks!",
+    "summary": {
+      "subtotal": 0.00,
+      "salesTax": 0.00,
+      "shipping": 0.00,
+      "total": 0.00
+    }
+  }
+}
